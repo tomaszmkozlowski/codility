@@ -7,6 +7,7 @@ import com.codility.lesson.lesson3.FrogJumpTest;
 import com.codility.lesson.lesson3.PermutationMissingElementTest;
 import com.codility.lesson.lesson3.TapeEquilibriumTest;
 import com.codility.lesson.lesson4.FrogRiverJumpTest;
+import com.codility.lesson.lesson4.MissingIntegerTest;
 import com.codility.lesson.lesson4.PermutationCheckTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
@@ -20,6 +21,7 @@ import org.junit.runners.Suite;
         PermutationMissingElementTest.class,
         TapeEquilibriumTest.class,
         FrogRiverJumpTest.class,
+        MissingIntegerTest.class,
         PermutationCheckTest.class
 })
 
