@@ -20,5 +20,8 @@ public class TapeEquilibriumTest {
     public void testFiveElementArray() {
         int result = TapeEquilibrium.calculate(new int[] {3, 1, 2, 4, 3});
         Assert.assertEquals(1, result);
+
+        result = TapeEquilibrium.calculate(new int[] {3, -1, 2, 4, 3});
+        Assert.assertEquals(3, result);
     }
 }
