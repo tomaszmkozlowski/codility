@@ -6,6 +6,7 @@ import com.codility.lesson.lesson2.OddOccurrencesInArrayTest;
 import com.codility.lesson.lesson3.FrogJumpTest;
 import com.codility.lesson.lesson3.PermutationMissingElementTest;
 import com.codility.lesson.lesson3.TapeEquilibriumTest;
+import com.codility.lesson.lesson4.PermutationCheckTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -16,7 +17,8 @@ import org.junit.runners.Suite;
         OddOccurrencesInArrayTest.class,
         FrogJumpTest.class,
         PermutationMissingElementTest.class,
-        TapeEquilibriumTest.class
+        TapeEquilibriumTest.class,
+        PermutationCheckTest.class
 })
 
 public class CodilityTestSuite {
